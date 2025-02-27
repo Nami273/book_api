@@ -4,7 +4,7 @@ from flask_cors import CORS, cross_origin
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://mongo:<db_password>@cluster0.ic57w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://username:<db_password>@cluster0.ic57w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
